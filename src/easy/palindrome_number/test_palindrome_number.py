@@ -4,21 +4,21 @@ from . import palindrome_number
 
 
 def test_1_palindrome_number():
-    number: int = 121
-    result: bool = palindrome_number(number)
+    input: int = 121
+    output: bool = palindrome_number(input)
 
-    assert result is True
+    assert output is True
 
 
 def test_2_palindrome_number():
-    number: int = -121
-    result: bool = palindrome_number(number)
+    input: int = -121
+    output: bool = palindrome_number(input)
 
-    assert result is False
+    assert output is False
 
 
 def test_3_palindrome_number():
-    number: int = 10
-    result: bool = palindrome_number(number)
+    input: int = 10
+    output: bool = palindrome_number(input)
 
-    assert result is False
+    assert output is False

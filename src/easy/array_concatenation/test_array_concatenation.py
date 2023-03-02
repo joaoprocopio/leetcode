@@ -4,14 +4,14 @@ from . import array_concatenation
 
 
 def test_1_array_concatenation():
-    numbers: list[int] = [1, 2, 1]
-    result: list[int] = array_concatenation(numbers)
+    input: list[int] = [1, 2, 1]
+    output: list[int] = array_concatenation(input)
 
-    assert result == [1, 2, 1, 1, 2, 1]
+    assert output == [1, 2, 1, 1, 2, 1]
 
 
 def test_2_array_concatenation():
-    numbers: list[int] = [1, 3, 2, 1]
-    result: list[int] = array_concatenation(numbers)
+    input: list[int] = [1, 3, 2, 1]
+    output: list[int] = array_concatenation(input)
 
-    assert result == [1, 3, 2, 1, 1, 3, 2, 1]
+    assert output == [1, 3, 2, 1, 1, 3, 2, 1]
