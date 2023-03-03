@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/palindrome-number/
+# https://leetcode.com/problems/concatenation-of-array/
 
 from . import array_concatenation
 
