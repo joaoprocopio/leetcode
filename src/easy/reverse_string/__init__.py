@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/reverse-string/
 
 
-def reverse_string(s: list[str]) -> list[str]:
-    return s[::-1]
+def reverse_string(string: list[str]) -> list[str]:
+    return string[::-1]
