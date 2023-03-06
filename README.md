@@ -1,12 +1,16 @@
 # leetcode
 
-```
+Todos os Test Cases usados foram pegos diretamente do site do LeetCode.
+
+Para rodar os testes do projeto:
+
+```sh
 poetry install
 poetry shell
 pytest
 ```
 
-```
+```sh
 src
 ├── easy
 │   ├── array_concatenation
